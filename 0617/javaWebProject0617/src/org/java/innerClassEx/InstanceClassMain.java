@@ -1,0 +1,25 @@
+package org.java.innerClassEx;
+
+public class InstanceClassMain {
+	public static void main(String[] args) {
+		
+		System.out.println("내부클래스(인스턴스클래스)");
+		
+		InstanceClass outC=new InstanceClass();
+		outC.age=20;
+		outC.name="외부클래스";
+		System.out.println(outC.name);
+									// 외부클래스.new 내부클래스생성자();
+		InstanceClass.InstanceBasic inC=outC.new InstanceBasic(); 
+		inC.age=10;
+		inC.name="내부클래스";
+		System.out.println(inC.name);
+									// new 외부().new 내부();
+		InstanceClass.InstanceBasic inC2 = new InstanceClass().new InstanceBasic();
+		inC2.age=10;
+		inC2.name="내부클래스";
+		System.out.println(inC2.name);
+				
+		
+	}
+}

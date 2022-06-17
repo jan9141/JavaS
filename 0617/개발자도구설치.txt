@@ -1,0 +1,14 @@
+프로그래밍 언어	JAVA 1.8
+	https://www.oracle.com/kr/java/technologies/javase/javase8-archive-downloads.html
+개발 툴		eclipse 8
+	https://www.eclipse.org/downloads/packages/
+WEB Server :Apache
+WAS		tomcat9			localhost -> 127.0.0.1
+	https://tomcat.apache.org/
+
+Servlet version : 4.0
+JSP version 2.1
+DBCP version:
+
+Oracle PORT 8080
+Mysql PORT 3306
