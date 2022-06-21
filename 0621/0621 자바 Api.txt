@@ -1,0 +1,48 @@
+Wrapper클래스
+-자바의 기본 타입을 클래스화한 8개 클래스를 통칭
+
+기본타입을 객체화(Wrapper)
+Integer i2 = new Integer();
+new Byte
+new Short
+new Integer
+new Long
+new Float
+new Double
+new Character
+new Boolean
+용도
+-객체만 사용할 수 있는 컬렉션 등에 기본 타입의 값을 사용하기 위해 ->Wrapper 객체로 만들어 사용
+Wrapper >> Generic 타입에 사용 >> 컬렉션에 사용(ArrayList,Collection,Map...)
+-박싱 : 기본 타입의 데이터르르 래퍼 클래스의 인스턴스로 변환하는 과정
+int i2=10;
+Integer i = new Integer(i2);//기본 타입을 Wrapper 변경
+-언박싱 : 래퍼 클래스의 인스턴스에 저장된 값을 다시 기본 타입의 데이터로 꺼내는 과정
+int i2=10;
+Integer i = new Integer(100);
+int i2=parseInt(i);;//Wrapper -> 기본타입
+오토 박싱&언박싱
+interger i=10;       -> 오토 박싱
+int i2=i;             ->오토 언박싱
+
+개발 툴                 : eclipse 8
+https://www.eclipse.org/downloads/packages/release/2018-12/r
+preferences -> text
+환경 설치 ,서버 환경 설정 ,한글 처리 전부다 utf -8 변경
+emmet 설치 복사 주소
+http://download.emmet.io/eclipse/updates/ 
+
+
+String
+
+스트링리터럴과 new Sting ()
+Stirng str1="문자열";//스트링 리터럴
+String str2=new String("문자열"); //
+
+스트링리터럴
+자바 가상기계내부에서 리터럴 테이블에 저장되고 관리됨
+응용프로그램서 공유됨(스트링리터럴 사례) String s="Hello";
+
+New Sting() 으로 생성된 스트링
+스트링객체는 힙에 생성
+스트링은 공유되지 않음

@@ -1,0 +1,34 @@
+개발 툴                 : eclipse 8
+https://www.eclipse.org/downloads/packages/release/2018-12/r
+preferences -> text
+환경 설치 ,서버 환경 설정 ,한글 처리 전부다 utf -8 변경
+emmet 설치 복사 주소
+http://download.emmet.io/eclipse/updates/ 
+
+프로그래밍 언어	JAVA 1.8
+	https://www.oracle.com/kr/java/technologies/javase/javase8-archive-downloads.html
+개발 툴		eclipse 8
+	https://www.eclipse.org/downloads/packages/
+WEB Server :Apache
+WAS		tomcat9			localhost -> 127.0.0.1
+	https://tomcat.apache.org/
+
+
+
+Oracle PORT 8080 	xe11 	**과정형 정보처리기능사 실기
+	https://www.oracle.com/database/technologies/xe-prior-release-downloads.html
+
+sqlplus 엔터
+system
+sys -> 관리자 권한
+
+Mysql PORT 3306	-> 실제 프로젝트, 포플 -> EC2, 무료
+
+
+
+JDBC 드라이버 -> JAVA와 DBMS(DB)를 연동시키는 드라이버, 반드시 설치해야 사용 할수 있다.
+1. oracle -> C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib
+
+Servlet version : 4.0
+JSP version 2.1
+DBCP version:
